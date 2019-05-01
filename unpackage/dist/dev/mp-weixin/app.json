@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/match/match"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 6000
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

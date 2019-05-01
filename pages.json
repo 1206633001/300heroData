@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"onReachBottomDistance": 90
+			}
+		},
+		{
+			"path": "pages/match/match",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"onReachBottomDistance": 90
+			}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true
+}
